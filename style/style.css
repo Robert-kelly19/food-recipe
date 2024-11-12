@@ -1,0 +1,159 @@
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+  header {
+    img {
+      height: 50px;
+      border-radius: 50px;
+      margin-top: 8px;
+      margin-left: 8px;
+    }
+    nav ul {
+      display: none;
+    }  
+  }
+
+  .sec1 {
+    background-color: #003333;
+    color: white;
+    h1 {
+      font-family: im fell French canon, serif;
+      text-align: center;
+    }
+    img {
+      height: 320px;
+    }
+  }
+
+  .sec1 p {
+    text-align: center;
+  }
+  
+  .sec2 h1, h3 {
+    text-align: center;
+    font-family: inter, serif;
+  }
+
+  .sec2 p {
+    text-align: center;
+  }
+
+  .ingre {
+    margin-left: -10%;
+
+  }
+
+  .ingre1 {
+    ul li {
+      font-size: large;
+    }
+
+    img {
+      height: 200px;
+    }
+  }
+
+  .ingre2 {
+    img {
+      height: 200px;
+    }
+  }
+
+  .ingre3 {
+    img {
+      height: 200px;
+    }
+  }
+
+  .ingre4 {
+    img {
+      height: 250px;
+    }
+  }
+
+  .ingre5 {
+    img {
+      height: 200px;
+    }
+  }
+
+  .ingre6 {
+    img {
+      height: 200px;
+    }
+  }
+
+  .ingre7 {
+    img {
+      height: 250px;
+    }
+  }
+
+  .meth {
+
+  }
+
+  .meth1 {
+    img {
+      height: 600px;
+    }
+  }
+
+  .meth2 {
+    img {
+      height: 470px;
+    }
+  }
+
+  .meth3 {
+    img {
+      height: 235px;
+    }
+  }
+
+  .meth4 {
+    img {
+      height: 235px;
+    }
+  }
+
+  .meth5 {
+    img {
+      height: 245px;
+    }
+  }
+
+  .meth6 {
+    img {
+      height: 245px;
+    }
+  }
+
+  .meth7 {
+    img {
+      height: 245px;
+    }
+  }
+
+  footer {
+    background-color: #003333;
+    img {
+      height: 50px;
+    }
+    ul {
+      display: flex;
+      color: white; 
+    }
+    img {
+      margin-left: 2%;
+    }
+  }
+
+
+
+}
