@@ -1,0 +1,167 @@
+@media (min-width: 760px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%e;
+  }
+
+  nav img {
+    height: 70px;
+  }
+
+  nav ul {
+    display: flex;
+    margin-right: 4%;
+    gap: 10%;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: #003333;
+    text-decoration: none;
+  }
+
+  .sec1 {
+    background: #003333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .sec1 img {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  .sec1-1 h1 {
+    color: #fff;
+    font-family: IM Fell French Canon, serif;
+    font-weight: 400;
+    font-size: 500%;
+    text-align: center;
+  }
+
+  .fe {
+    font-style: italic;
+    color: #027c00;
+  }
+
+  .sec1-1 p {
+    color: white;
+    font-family: inter, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: -10%;
+  }
+
+  .sec2 h1{
+    text-align: center;
+    font-family: 'IM Fell French Canon';
+    color: #003333;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xxx-large;
+    margin-top: 10%;
+  }
+
+  .ingre {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .ingre ul li {
+    text-align: center;
+    list-style-type: disclosure-closed;
+    font-size: x-large;
+    color: black;
+  }
+
+  .ingre img {
+    height: 100px;
+  }
+
+  .sec3 h1 {
+    text-align: center;
+    font-family: 'IM Fell French Canon';
+    color: #003333;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xxx-large;
+    margin-top: 10%;
+  }
+
+  .meth {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    margin-left: 2%;
+  }
+
+  .meth img {
+    height: 100px;
+  }
+
+  .meth p {
+    text-align: center;
+    font-family: inter, serif;
+  }
+
+  .meth li {
+    list-style-type: disclosure-open;
+    color: #027c68;
+  }
+
+  .sec4 h1 {
+    text-align: center;
+    font-family: 'IM Fell French Canon';
+    color: #003333;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xxx-large;
+    margin-top: 20%;
+  }
+
+  .sec4 p {
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .sec4 a {
+    color: white;
+    text-decoration: auto;
+    background-color: #003333;
+    border: solid #003333;
+    border-radius: 5%;
+    margin-left: 50%;
+    font-size: x-large;
+  }
+
+  .sec4 a:hover{
+    background: #fff;
+    border: solid #003333 1px;
+    color: #003333;
+    transition: 0.9s ease-in-out;
+  }
+
+  footer {
+    background: #003333;
+    margin-top: 30Px;
+  }
+
+  footer img {
+    height: 70px;
+  }
+
+  footer ul {
+    display: flex;
+    margin-right: 4%;
+    gap: 10%;
+    list-style-type: none;
+    text-align: center;
+  }
+}
